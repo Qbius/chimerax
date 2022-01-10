@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from urllib.request import urlretrieve
-from PIL import Image
+from PIL.Image import open as image_open
 
 class handler(BaseHTTPRequestHandler):
 
