@@ -1,1 +1,1 @@
-pillow==8.40
+pillow
